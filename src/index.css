@@ -1,0 +1,24 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+  background-color:#5E17EC;
+  overflow: hidden;
+}
+
+
+.WeatherApp{
+  min-width:20rem;
+  width:28rem;
+  border-radius:0.8rem;
+  background:white;
+}
