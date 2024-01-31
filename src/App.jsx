@@ -3,7 +3,7 @@ import { Box, Container, TextField, Typography } from "@mui/material";
 import { LoadingButton } from "@mui/lab";
 import DetailsWeather from "./components/DetailsWeather";
 
-const BASE_WEATHER_API = `http://api.weatherapi.com/v1/current.json?key=${
+const BASE_WEATHER_API = `https://api.weatherapi.com/v1/current.json?key=${
   import.meta.env.VITE_API_KEY
 }&lang=es&q=`;
 
